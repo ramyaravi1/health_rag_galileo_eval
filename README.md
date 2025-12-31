@@ -15,7 +15,7 @@ This project demonstrates:
 User Query -> Vector Search (FAISS) -> Context Retrieval -> FLAN-T5 Generation -> Galileo Tracing -> Automated Evaluation (Metrics)
 
 ### Project Structure
-
+```bash
 health_rag_galileo_eval/
 │
 ├── app.py (CLI Chat)
@@ -31,7 +31,7 @@ health_rag_galileo_eval/
 │   └── medical_groundedness_metric.py (Custom LLM-as-Judge Metric)
 │
 └── run_evaluations.py
-
+```
 ## Setup Instructions (implemented the entire RAG application on Google Colab)
 ### 1. Clone the repo - 
 ```bash
@@ -69,6 +69,7 @@ os.environ["GALILEO_PROJECT"] = "health-rag"
 ### 9. View results in Galileo
 ➡️ Project: health-rag
 ➡️ Log Stream: FLAN-T5-Runs-new
+
 Here you’ll see:
 -> Traces
 -> Built-in metrics verdicts
