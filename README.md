@@ -11,17 +11,7 @@ This project demonstrates:
 - Batch evaluation over multiple test queries
 
 ## Architecture Overview
-User Query
-↓
-Vector Search (FAISS)
-↓
-Context Retrieval
-↓
-FLAN-T5 Generation
-↓
-Galileo Tracing
-↓
-Automated Evaluation (Metrics)
+User Query -> Vector Search (FAISS) -> Context Retrieval -> FLAN-T5 Generation -> Galileo Tracing -> Automated Evaluation (Metrics)
 
 ## Setup Instructions
 ### 1. Clone the repo - 
