@@ -32,13 +32,12 @@ health_rag_galileo_eval/
 │
 └── run_evaluations.py
 ```
-## Setup Instructions (implemented the entire RAG application on Google Colab)
+## Setup Instructions (implemented the entire Healthcare RAG + FLAN-T5 + Galileo evaluation project on Google Colab)
 ### 1. Clone the repo - 
 ```bash
 git clone https://github.com/your-username/health_rag_galileo_eval.git
 cd health_rag_galileo_eval
 ```
-
 ### 2. Sign up on Galileo - https://app.galileo.ai/sign-in and create an API key (Settings → API Keys → Create Key)
 ### 3. Upload the folder on your Google drive and open it on Colab
 ### 3. Open the jupyter notebook file - main.ipynb
