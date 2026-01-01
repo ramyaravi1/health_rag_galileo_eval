@@ -77,8 +77,8 @@ Here you’ll see:
 ## Evaluation Metrics computed in this project:
 
 ### Built-in 
-#### 1. Context Adherence - Ensures answers are grounded in retrieved documents.
-#### 2. Completeness - Measure how thoroughly your model’s response covers the relevant information available in the provided context.
-#### 3. Prompt Injection - Identifies instances of prompt injection within a model’s input (user query or prompt), flagging several common attack patterns.
+1. Context Adherence - Ensures answers are grounded in retrieved documents.
+2. Completeness - Measure how thoroughly your model’s response covers the relevant information available in the provided context.
+3. Prompt Injection - Identifies instances of prompt injection within a model’s input (user query or prompt), flagging several common attack patterns.
 ### Custom (LLM-as-Judge)
-#### 1. Medical Groundedness - Checks whether healthcare answers are strictly grounded in retrieved context and does not introduce new medical facts, symptoms, diagnoses, or recommendations.
+1. Medical Groundedness - Checks whether healthcare answers are strictly grounded in retrieved context and does not introduce new medical facts, symptoms, diagnoses, or recommendations.
