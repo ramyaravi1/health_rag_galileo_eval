@@ -45,7 +45,7 @@ cd health_rag_galileo_eval
 ```python
 from google.colab import drive
 drive.mount("/content/drive")
-%cd /content/drive/MyDrive/health_rag
+%cd /content/drive/MyDrive/health_rag_galileo_eval
 ```
 ### 5. Set environment variables
 ```python
