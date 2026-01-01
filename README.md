@@ -72,6 +72,6 @@ os.environ["GALILEO_PROJECT"] = "health-rag"
 Here you’ll see:
 -> Traces
 -> Built-in metrics verdicts
--> Custom judge verdicts
+-> Custom Custom LLM-as-Judge metric verdict
 
 
