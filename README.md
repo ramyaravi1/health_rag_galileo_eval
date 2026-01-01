@@ -57,11 +57,11 @@ os.environ["GALILEO_PROJECT"] = "health-rag"
 ```python
 !pip install -r requirements.txt
 ```
-### 7. Run RAG application with Galileo setup and enable Galileo built-in metrics
+### 7. Run the Chatbot (Interactive) with Galileo setup and enable Galileo built-in metrics
 ```python
 !python app.py
 ```
-### 8. Run Evaluations (10 Test Cases)
+### 8. Run Evaluations (10 synthetic healthcare questions and logs evaluations to Galileo):
 ```python
 !python run_evaluations.py
 ```
@@ -74,4 +74,11 @@ Here you’ll see:
 -> Built-in metrics verdicts
 -> Custom Custom LLM-as-Judge metric verdict
 
+## Evaluation Metrics computed in this project:
 
+### Built-in 
+#### 1. Context Adherence - Ensures answers are grounded in retrieved documents.
+#### 2. Completeness - Measure how thoroughly your model’s response covers the relevant information available in the provided context.
+#### 3. Prompt Injection - Identifies instances of prompt injection within a model’s input (user query or prompt), flagging several common attack patterns.
+### Custom (LLM-as-Judge)
+#### 1. Medical Groundedness - Checks whether healthcare answers are strictly grounded in retrieved context and does not introduce new medical facts, symptoms, diagnoses, or recommendations.
