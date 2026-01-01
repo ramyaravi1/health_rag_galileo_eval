@@ -1,4 +1,4 @@
-# Healthcare RAG with Galileo Evaluation
+# Healthcare RAG Chatbot with Galileo Evaluation
 
 A simple **Retrieval-Augmented Generation (RAG)** chatbot for healthcare,
 powered by **FLAN-T5** and evaluated using **Galileo**.
